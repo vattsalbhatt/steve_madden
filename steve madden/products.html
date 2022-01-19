@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/products.css"/>
+
+</head>
+<body>
+    <div id="heading">
+        <p>All PRODUCTS</p>
+    </div>
+    <div id="main">
+        <div id="filters">
+            <p>CATEGORY <span id="catplus">+</span></p>
+            <div id="catdiv"></div>
+
+            <p>DISCOUNT <span id="dplus">+</span></p>
+            <div id="disdiv"></div>
+            
+            <p>COLOR <span id="colplus">+</span></p>
+            
+            <p>SIZE <span id="splus">+</span></p>
+            
+            <button id="btn">CLEAR  ALL  FILTERS</button>
+        </div>
+        <div id="products">
+
+            <div id="selectdiv">
+                <label>Sort by :</label>
+                <select id="sort" onchange="sortproducts()">
+                    <option value="discount">Discount</option>
+                    <option value="lowtohigh">Price (Low to High)</option>
+                    <option value="hightolow">Price (High to Low)</option>
+                </select>
+            </div>
+
+            <div id="cont"></div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="./scripts/products.js">
+    
+</script>
