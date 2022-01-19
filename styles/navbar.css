@@ -1,0 +1,12 @@
+#navbarName {
+  font-weight: 600;
+  font-size: 30px;
+}
+.dropdown-menu {
+  font-size: 15px;
+  font-weight: 400;
+}
+#navbar {
+  /* border: 1px solid grey; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
