@@ -26,30 +26,11 @@
     float: right;
     font-size: 25px;
 }
-#dplus{
-    float: right;
-    font-size: 25px;
-}
-#splus{
-    float: right;
-    font-size: 25px;
-}
-#colplus{
-    float: right;
-    font-size: 25px;
-}
+ 
 #catplus:hover{
     cursor: pointer;
 }
-#dplus:hover{
-    cursor: pointer;
-}
-#splus:hover{
-    cursor: pointer;
-}
-#colplus:hover{
-    cursor: pointer;
-}
+ 
 #filters > p{
     padding-bottom: 13px;
     border-bottom: 1px solid black;
@@ -58,6 +39,10 @@
     color: white;
     background-color: black;
     padding: 10px 20px;
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #products{
     width: 70%;
@@ -86,6 +71,7 @@
 }
 #images:hover{
     opacity: 0.6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #prices{
     display: flex;
@@ -102,4 +88,32 @@
 }
 #name{
     text-align: center;
+}
+
+@media only screen and (min-width : 375px) and (max-width:768px){
+    #cont{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    #products{
+        width: 90%;
+        margin: auto;
+    }
+    #filters{
+        display: none;
+    }
+    #images{
+        width: 100%;
+        height: 250px;
+    }
+    #selectdiv{
+        display: none;
+    }
+    #heading{
+        font-size: 20px;
+    }
+    #prices{
+        font-size: 12px;
+        gap: 0px;
+    }
 }
