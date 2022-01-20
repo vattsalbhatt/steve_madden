@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <!-- Index CSS file -->
     <link rel="stylesheet" href="./styles/index.css" />
+
+    <!-- Footer CSS file -->
+    <link rel="stylesheet" href="./styles/footer.css" />
     <title>Steve Madden</title>
   </head>
 
@@ -56,7 +59,8 @@
     ></script>
 
     <div id="mainHome">
-      <div id="navbar"></div>
+      <div id="navbar1"></div>
+      <div id="navbar2"></div>
       <!-- 1st Banner Image Starts -->
       <div id="bannerImage">
         <img
@@ -346,14 +350,34 @@
           alt=""
         />
       </div>
+      <div id="indexFooter"></div>
       <!-- Main is Ending -->
     </div>
   </body>
 </html>
 
 <script type="module">
-  import navbar from "./components/navbar.js";
-  let nav = document.querySelector("#navbar");
-  nav.innerHTML = navbar();
+  import { navbar1, navbar2 } from "./components/navbar.js";
+  let nav1 = document.querySelector("#navbar1");
+  nav1.innerHTML = navbar1();
+  let nav2 = document.querySelector("#navbar2");
+  nav2.innerHTML = navbar2();
+
+  import { footer, tr } from "./components/footer.js";
+  let foot = document.querySelector("#indexFooter");
+  foot.innerHTML = footer();
+  tr();
+
+  //Email Subscription
+
+  let email = document.querySelector("#go");
+  email.addEventListener("click", function () {
+    let emailId = document.querySelector("#inputfoot").value;
+    subscribeMail(emailId);
+  });
+
+  function subscribeMail(emailId) {
+    alert("Subscribed --> " + emailId);
+  }
   //   console.log(nav);
 </script>
