@@ -2,7 +2,7 @@ function navbar2() {
   return `  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="./index.html">
-      <span id="navbarName">Steve Madden</span>
+      <span id="navbarName">STEVE MADDEN</span>
     </a>
     <button
       class="navbar-toggler"

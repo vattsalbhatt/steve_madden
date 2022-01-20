@@ -2,14 +2,14 @@ body {
   font-family: "Oswald", sans-serif;
 }
 #mainHome {
-  width: 90%;
+  width: 100%;
   height: auto;
   /* border: 1px solid black; */
   margin: auto;
   /* margin-bottom: 100px; */
 }
 #homeCarousel {
-  width: 90%;
+  width: 80%;
   height: auto;
   /* border: 1px solid red; */
   margin: auto;
@@ -25,7 +25,7 @@ body {
 }
 /* Banner Image */
 #bannerImage {
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 3%;
 }
@@ -39,7 +39,7 @@ body {
 
 /* Active Banner */
 #activeBanner {
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 5%;
 }
@@ -76,7 +76,7 @@ body {
 
 /* Gender Products Starts */
 #genderProducts {
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 5%;
 }
@@ -157,7 +157,7 @@ body {
 @media (min-width: 426px) and (max-width: 825px) {
   /* 1st Banner */
   #bannerImage {
-    width: 95%;
+    width: 80%;
   }
   #bannerImage > #img1 {
     display: none;
