@@ -20,18 +20,13 @@
         <div id="filters">
             <p>CATEGORY <span id="catplus">+</span></p>
             <div id="catdiv"></div>
-
-            <p>DISCOUNT <span id="dplus">+</span></p>
-            <div id="disdiv"></div>
             
-            <p>COLOR <span id="colplus">+</span></p>
-            
-            <p>SIZE <span id="splus">+</span></p>
-            
+            <!-- <p>GENDER <span id="colplus">+</span></p>
+            <div id="gndrdiv"></div> -->
+        
             <button id="btn">CLEAR  ALL  FILTERS</button>
         </div>
         <div id="products">
-
             <div id="selectdiv">
                 <label>Sort by :</label>
                 <select id="sort" onchange="sortproducts()">
@@ -48,5 +43,10 @@
 </body>
 </html>
 <script src="./scripts/products.js">
-    
+
 </script>
+<!-- <script type="module">
+    import body from "./components/body.js"
+
+    document.getElementById("main").innerHTML=body()
+</script> -->

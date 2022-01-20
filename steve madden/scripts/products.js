@@ -102,6 +102,40 @@ let data = [
     },
 
     {
+         url : "https://stevemadden.gumlet.io/product/410301739005/300/410301739005_1.jpg?w=360&dpr=1.3 ",
+         url_2 : "https://stevemadden.gumlet.io/product/410301739005/665/410301739005_2.jpg?w=768&dpr=1.3",
+         url_3 : "https://stevemadden.gumlet.io/product/410301739005/665/410301739005_3.jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410301739005/665/410301739005_4.jpg?w=768&dpr=1.3",
+         name : "SM-1248",
+         Mrp : "₹ 3,499.00",
+         price : "₹ 2,799.00",
+         p : 2799,
+         discount : "(20% Off)"
+     },
+     {
+         url : "https://stevemadden.gumlet.io/product/410279374001/665/410279374001_1.jpg?w=768&dpr=1.3",
+         url_2 :"https://stevemadden.gumlet.io/product/410279374001/665/410279374001_2.jpg?w=768&dpr=1.3",
+         url_3 : "https://stevemadden.gumlet.io/product/410279374001/665/410279374001_3.jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410279374001/665/410279374001_4.jpg?w=768&dpr=1.3",
+         name : "BVESA",
+         Mrp : "₹ 6,999.00",
+         price : "₹ 2,799.00",
+         p : 2799,
+         discount : "(60% Off)"
+     },
+      
+     {
+         url : " https://stevemadden.gumlet.io/product/410289926001/665/000000410289926001_YELLOW%20(1).jpg?w=768&dpr=1.3",
+         url_2 : "https://stevemadden.gumlet.io/product/410289926001/665/000000410289926001_YELLOW%20(2).jpg?w=768&dpr=1.3",
+         url_3 : "https://stevemadden.gumlet.io/product/410289926001/665/000000410289926001_YELLOW%20(3).jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410289926001/665/000000410289926001_YELLOW%20(5).jpg?w=768&dpr=1.3",
+         name : "BSTYLE",
+         Mrp : "₹ 7,999.00",
+         price : "₹ 5,599.00",
+         p : 5599,
+         discount : "(30% Off)"
+     },
+    {
          url : "https://stevemadden.gumlet.io/product/410231773008/665/410231773007_1.jpg?dpr=1.0&q=70&w=768 ",
          url_2 : "https://stevemadden.gumlet.io/product/410231773008/665/410231773007_3.jpg?dpr=1.0&q=70&w=768",
          url_3 : "https://stevemadden.gumlet.io/product/410231773008/665/410231773007_5.jpg?dpr=1.0&q=70&w=100",
@@ -233,7 +267,41 @@ let data = [
          price : "₹ 6,999.00",
          p : 6999,
          discount : "(30% Off)",
-    },
+     },
+
+    {
+         url : "https://stevemadden.gumlet.io/product/410163016005/665/410163016001_1.jpg?w=768&dpr=1.3",
+         url_2 : "https://stevemadden.gumlet.io/product/410163016005/665/410163016001_2.jpg?w=768&dpr=1.3",
+         url_3 : "https://stevemadden.gumlet.io/product/410163016005/665/410163016001_3.jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410163016005/665/410163016001_5.jpg?w=768&dpr=1.3",
+         name : "ALTON",
+         Mrp : "₹ 8,999.00",
+         price : "₹ 4,499.00",
+         p : 4499,
+         discount : "(50% Off)",
+     },
+     {
+         url : "https://stevemadden.gumlet.io/product/410163046004/665/410163046001_1.jpg?w=768&dpr=1.3",
+         url_2 : "https://stevemadden.gumlet.io/product/410163046004/665/410163046001_3.jpg?w=768&dpr=1.3",
+         url_3 : " https://stevemadden.gumlet.io/product/410163046004/665/410163046001_4.jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410163046004/665/410163046001_5.jpg?w=768&dpr=1.3",
+         name : "GEOFFREY",
+         Mrp : "₹ 9,999.00",
+         price : "₹ 4,999.00",
+         p : 4999,
+         discount : "(50% Off)",
+     },
+     {
+         url : " https://stevemadden.gumlet.io/product/410231794011/665/410231794007_1.jpg?w=768&dpr=1.3",
+         url_2 : "https://stevemadden.gumlet.io/product/410231794011/665/410231794007_2.jpg?w=768&dpr=1.3 ",
+         url_3 : " https://stevemadden.gumlet.io/product/410231794011/665/410231794007_4.jpg?w=768&dpr=1.3",
+         url_4 : "https://stevemadden.gumlet.io/product/410231794011/665/410231794007_5.jpg?w=768&dpr=1.3",
+         name : "SM-1002",
+         Mrp : "₹ 6,999.00",
+         price : "₹ 3,499.00",
+         p : 3499,
+         discount : "(50% Off)",
+     },
     {
          url : "https://stevemadden.gumlet.io/product/410220797038/665/410220797037_1.jpg?w=768&dpr=1.3",
          url_2 : "https://stevemadden.gumlet.io/product/410220797038/665/410220797037_3.jpg?w=768&dpr=1.3",
@@ -462,7 +530,7 @@ let data = [
          document.getElementById("cont").append(div)
      })
  
- }
+}
  
 appendata(data);
 
@@ -512,6 +580,7 @@ function gotocart(x){
     arr.push(x)
     console.log('arr:', arr)
     localStorage.setItem("cartitems",JSON.stringify(arr))
+    window.location.href="cart.html"
 }
 
 
@@ -524,32 +593,44 @@ document.getElementById("catplus").onclick = function(){
         document.getElementById("catdiv").innerHTML=null
     }
     else{
-        
-        let filterdiv = document.createElement("div")
-        filterdiv.setAttribute("id","filtdiv")
-        
-        let input1 = document.createElement("input");
-        input1.type = "checkbox";
-        input1.setAttribute("id","bags")
+         let bags = document.createElement("p");
+         bags.textContent="Handbags";
+         bags.onclick =function (){
+               window.location.href="handbags.html"
+         }
 
-        let a = document.createElement("label");
-        a.textContent = "  Handbags"
-    
-        let input2 = document.createElement("input");
-        input2.type = "checkbox";
+         let cloths = document.createElement("p");
+         cloths.textContent = "Clothing";
+         cloths.onclick =function (){
+            window.location.href="clothing.html"
+         }
 
-        let b = document.createElement("label");
-        b.textContent = " Footwear";
+         let women = document.createElement("p")
+         women.textContent = "Women";
+         women.onclick =function (){
+              window.location.href="women.html"
+         }
 
-        let input3 = document.createElement("input");
-        input3.type = "checkbox";
+         let men = document.createElement("p")
+         men.textContent = "Men";
+         men.onclick =function (){
+              window.location.href="mens.html"
+         }
 
-        let c = document.createElement("label");
-        c.textContent = " Clothing";
+         let all = document.createElement("p")
+         all.textContent = "All Products";
+         all.onclick =function (){
+              window.location.href="products.html"
+         }
 
-        filterdiv.append(input1,a,input2,b,input3,c)
 
-        document.getElementById("catdiv").append(filterdiv)
-    }
+         document.getElementById("catdiv").append(bags,cloths,women,men,all)
+     }
 }
 
+document.getElementById("btn").onclick = function(){
+
+     document.getElementById("filters").innerHTML=null;
+     document.getElementById("filters").style.width="0px";
+     document.getElementById("products").style.width="80%";margin="auto";
+}
