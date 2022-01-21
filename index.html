@@ -163,10 +163,20 @@
           <h1>BEST SELLERS</h1>
           <p>Our favorites and yours.</p>
           <div id="genderBtn">
-            <button type="button" class="btn btn-outline-dark btn-lg">
+            <button
+              id="womenBtn"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              onclick="window.location.href='./women.html'"
+            >
               WOMEN'S
             </button>
-            <button type="button" class="btn btn-outline-dark btn-lg">
+            <button
+              id="menBtn"
+              type="button"
+              class="btn btn-outline-dark btn-lg"
+              onclick="window.location.href='./mens.html'"
+            >
               MEN'S
             </button>
           </div>
@@ -188,7 +198,7 @@
               </div> -->
             </div>
             <div class="row d-flex align-items-center">
-              <div
+              <!-- <div
                 class="col-1 d-flex align-items-center justify-content-between"
               >
                 <a
@@ -208,8 +218,8 @@
                     </svg>
                   </div>
                 </a>
-              </div>
-              <div class="col-10">
+              </div> -->
+              <div class="col-12">
                 <!--Start carousel-->
                 <div
                   id="carouselExampleIndicators"
@@ -218,22 +228,25 @@
                 >
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <div class="row">
+                      <div class="row" id="womenProSlide">
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun04.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410300562016/300/410300562016_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                         ></div>
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun02.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410289955013/300/410289955013-RED%20MULTI_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                         ></div>
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun05.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410289938019/300/410289938019-BLUE_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                           class="col-12 col-md d-flex align-items-center justify-content-center"
@@ -241,8 +254,9 @@
                           <!-- <h3 class="text-white">Text in the panel.</h3> -->
                         </div>
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun05.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410277353001/300/410277353001_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                           class="col-12 col-md d-flex align-items-center justify-content-center"
@@ -251,29 +265,33 @@
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" id="proCarousel">
                       <div class="row">
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun01.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410292703069/300/410292703069_1.jpg?w=360&dpr=1.3');
+                          "
+                          class="col-12 col-sm d-flex align-items-center justify-content-center"
+                        ></div>
+                        <div
+                          onclick="window.location.href='products.html'"
+                          style="
+                            background-image: url('https://stevemadden.gumlet.io/product/410292691001/300/410292691001_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                         ></div>
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun01.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410292691001/300/410292691001_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                         ></div>
                         <div
+                          onclick="window.location.href='products.html'"
                           style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun03.jpg');
-                          "
-                          class="col-12 col-md d-flex align-items-center justify-content-center"
-                        ></div>
-                        <div
-                          style="
-                            background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun06.jpg');
+                            background-image: url('https://stevemadden.gumlet.io/product/410300592001/300/410300592001_1.jpg?w=360&dpr=1.3');
                           "
                           class="col-12 col-md d-flex align-items-center justify-content-center"
                           class="col-12 col-md d-flex align-items-center justify-content-center"
@@ -284,7 +302,7 @@
                 </div>
                 <!--End carousel-->
               </div>
-              <div
+              <!-- <div
                 class="col-1 d-flex align-items-center justify-content-center"
               >
                 <a href="#carouselExampleIndicators" data-slide="next">
@@ -300,7 +318,7 @@
                     </svg>
                   </div>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -355,9 +373,9 @@
 </html>
 
 <script type="module">
-  import { navbar1, navbar2 } from "./components/navbar.js";
-  let nav1 = document.querySelector("#navbar1");
-  nav1.innerHTML = navbar1();
+  import { navbar2 } from "./components/navbar.js";
+  // let nav1 = document.querySelector("#navbar1");
+  // nav1.innerHTML = navbar1();
   let nav2 = document.querySelector("#navbar2");
   nav2.innerHTML = navbar2();
 
@@ -365,6 +383,21 @@
   let foot = document.querySelector("#indexFooter");
   foot.innerHTML = footer();
   tr();
+
+  //Search Function
+
+  import searchTerm from "./scripts/search.js";
+  let query2 = document.querySelector("#searchQuery2");
+  query2.addEventListener("keypress", getSearch);
+
+  function getSearch(event) {
+    console.log("running");
+    if (event.key == "Enter") {
+      let keyword = query2.value;
+      console.log(keyword);
+      searchTerm(keyword);
+    }
+  }
 
   //Email Subscription
 

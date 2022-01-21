@@ -88,6 +88,11 @@ body {
 }
 
 /* Product Carousel */
+#productsWomen {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
 .carousel-nav-icon {
   height: 48px;
   width: 48px;
@@ -145,6 +150,10 @@ body {
     justify-content: center;
     margin-right: 50px;
   }
+
+  #genderProducts {
+    display: none;
+  }
   /* Last two Images */
   .giftHome > #img1 {
     display: none;
@@ -174,6 +183,10 @@ body {
     justify-content: space-around;
     margin-right: 40px;
     grid-gap: 20px;
+  }
+
+  #genderProducts {
+    display: none;
   }
   /* Last two Images */
   .giftHome > #img1 {
