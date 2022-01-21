@@ -35,6 +35,9 @@
     padding-bottom: 13px;
     border-bottom: 1px solid black;
 }
+.pointer{
+    cursor: pointer;
+}
 #btn{
     color: white;
     background-color: black;
