@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button onclick="add()" ></button>
+    
+</body>
+</html>
+
+<script>
+    let arr = [
+        {
+            url : "https://stevemadden.gumlet.io/product/410279947013/665/410279947013_1.jpg?w=640&dpr=1.1",
+            name : "MARIONN",
+            Mrp : "6,999",
+            price : '2,799',
+            color : 'olive',
+            size : 'xl',
+            p : 2799
+        }
+    ]
+
+    function add(){
+        localStorage.setItem('cartitems',JSON.stringify(arr));
+    }
+
+    
+</script>
