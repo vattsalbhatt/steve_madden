@@ -24,7 +24,7 @@ function navbar2() {
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cart.html">My Cart</a>
+          <a class="nav-link" href="cartIN.html">My Cart</a>
         </li>
         <li class="nav-item dropdown">
           <a
