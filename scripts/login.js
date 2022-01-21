@@ -21,6 +21,7 @@ function sign() {
     send1.style.display = "block";
     mob1.style.display = "block";
     mobile1.style.display = "block";
+    alert("Your OTP is 1234");
   });
 
   let h5 = document.getElementById("h5");
@@ -28,8 +29,8 @@ function sign() {
   send1.addEventListener("click", function () {
     if (mobile1.value == "1234") {
       alert("Customer Login Sucessfully");
-      localStorage.setItem('number',(number.value));
-      window.location.href='index.html';
+      localStorage.setItem("number", number.value);
+      window.location.href = "index.html";
     } else {
       h5.style.display = "block";
     }
