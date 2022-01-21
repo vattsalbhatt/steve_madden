@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="./styles/sign.css" />
+    <script
+      src="https://kit.fontawesome.com/b82df6f992.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style></style>
+    <title>Sign in</title>
+  </head>
+  <body>
+
+    <div id='navbar1'></div>
+    <div id='navbar2'></div>
+    <div id="name">
+      <h1>HI THERE!</h1>
+      <div id="log">
+        <h2 id="mob">Mobile No*</h2>
+        <input id="mobile" type="text" />
+        <button id="send">SEND TOP</button>
+        <h2 id="mob1">ONE TIME PASSWORD (OTP)*</h2>
+        <input id="mobile1" type="text" />
+        <h5 id="h5">OTP validation failed</h5>
+        <button id="send1">CONTINUE</button>
+      </div>
+    </div>
+
+    <div id="foot"></div>
+  </body>
+</html>
+
+<script type="module">
+  import { footer, tr } from "./components/footer.js";
+
+  import {navbar1, navbar2} from './components/navbar.js'
+
+  let nav1 = document.querySelector("#navbar1");
+  nav1.innerHTML = navbar1();
+  let nav2 = document.querySelector("#navbar2");
+  nav2.innerHTML = navbar2();
+ 
+  let foot = document.getElementById("foot");
+
+  foot.innerHTML = footer();
+
+  tr();
+
+  import sign from "./scripts/signIN.js";
+
+  sign();
+</script>
