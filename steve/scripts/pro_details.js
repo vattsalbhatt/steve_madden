@@ -132,5 +132,5 @@ function infom1(event){
 }
 
 document.querySelector("#cart").addEventListener("click",function(){
-  window.location.href=""
+  window.location.href="CartIN.html"
 })
