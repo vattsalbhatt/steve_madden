@@ -29,6 +29,7 @@
 
     <!-- Navbar CSS file -->
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <!-- <link rel="stylesheet" href="./styles/Stevenavbarstyle.css" /> -->
     <!-- Index CSS file -->
     <link rel="stylesheet" href="./styles/index.css" />
 
@@ -55,6 +56,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Copy Paste till here -->
 
     <div id="mainHome">
       <div id="navbar1"></div>
@@ -373,9 +376,9 @@
 </html>
 
 <script type="module">
-  import { navbar2 } from "./components/navbar.js";
-  // let nav1 = document.querySelector("#navbar1");
-  // nav1.innerHTML = navbar1();
+  import { navbar2, navbar1 } from "./components/navbar.js";
+  let nav1 = document.querySelector("#navbar1");
+  nav1.innerHTML = navbar1();
   let nav2 = document.querySelector("#navbar2");
   nav2.innerHTML = navbar2();
 
@@ -388,12 +391,24 @@
 
   import searchTerm from "./scripts/search.js";
   let query2 = document.querySelector("#searchQuery2");
-  query2.addEventListener("keypress", getSearch);
+  query2.addEventListener("keypress", getSearch2);
 
-  function getSearch(event) {
+  function getSearch2(event) {
     console.log("running");
     if (event.key == "Enter") {
       let keyword = query2.value;
+      console.log(keyword);
+      searchTerm(keyword);
+    }
+  }
+
+  let query1 = document.querySelector("#steven-search-box");
+  query1.addEventListener("keypress", getSearch1);
+
+  function getSearch1(event) {
+    console.log("running");
+    if (event.key == "Enter") {
+      let keyword = query1.value;
       console.log(keyword);
       searchTerm(keyword);
     }
