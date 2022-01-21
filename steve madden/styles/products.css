@@ -73,6 +73,7 @@
     height: 360px;
 }
 #images:hover{
+    cursor: pointer;
     opacity: 0.6;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
