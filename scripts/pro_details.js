@@ -60,6 +60,8 @@ console.log(cartlist[lastindex]);
 
   var price=document.querySelector(".price").textContent=cartlist[lastindex].price 
   console.log(price);
+  var color=document.querySelector("#product_color").textContent=cartlist[lastindex].color 
+  console.log(color);
   
 
 
